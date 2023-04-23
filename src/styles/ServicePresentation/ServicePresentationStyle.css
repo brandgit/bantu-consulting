@@ -1,0 +1,101 @@
+.wrapperServicePresentation {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    /* padding-bottom: 100px; */
+
+}
+.descriptionServicePresentation{
+    width: 90%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.wrapperVideoServicePresentation{
+    width: 90%;
+    height: 68%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    /* background-color: red; */
+}
+.videoServicePresentationContainer{
+
+    width: 290px;
+    
+}
+.titleServicePresentation h1{
+    font-size: 20px;
+}
+.bioServicePresentation {
+    height: 35%;
+    width: 90%;
+}
+.textServicePresentation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 0.8rem;
+    width: 100%;
+    height: 70%;
+}
+
+.buttonServicePresentation p {
+    height: 35px;
+    width: 100px;
+    color: white;
+    display: flex;
+    font-size: 0.7rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgba(18, 17, 17, .8) 35%, rgba(52, 73, 194, .8) 69%);
+   
+}
+
+
+
+@media (min-width: 390px) {
+    .videoServicePresentationContainer{
+        width: 335px;
+    }
+}
+@media (min-width: 400px) {
+    .videoServicePresentationContainer{
+        width: 370px;
+    }
+}
+@media (min-width: 500px) {
+    .videoServicePresentationContainer{
+        width: 430px;
+    }
+}
+@media (min-width: 600px) {
+    .videoServicePresentationContainer{
+        width: 540px;
+    }
+    .wrapperServicePresentation {
+        padding-bottom: 60px;
+    
+    }
+    .wrapperVideoServicePresentation{
+        justify-content:space-between;
+        /* background-color: red; */
+    }
+}
+@media (min-width: 700px) {
+    .videoServicePresentationContainer{
+        width: 580px;
+    }
+}
